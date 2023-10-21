@@ -10,6 +10,15 @@ app.set("view engine" , "ejs");
 app.get("/" , (req , res)=>{
    res.render("index");
 });
+app.get("/log" , (req , res)=>{
+   res.render("log");
+});
+app.get("/preOrder" , (req , res)=>{
+   res.render("pre_order");
+});
+app.get("/moreInfo" , (req , res)=>{
+   res.render("more_info");
+});
 
 /*
 app.get("/main" , (req , res)=>{
