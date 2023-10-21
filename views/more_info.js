@@ -363,7 +363,7 @@ const spotLight = new THREE.SpotLight(
    50,
    new THREE.Color("rgb(255,255,255)")
  );
- scene.add( helper );
+ //scene.add( helper );
  
  scene.add(directionalLight);
  //==================== end spotLight     =========================================
